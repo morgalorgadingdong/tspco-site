@@ -31,7 +31,9 @@
 	--border-radius: 1rem;
 }
 
-
+li {
+	list-style: none;
+}
 
 #home > .logo-container {
 	width: 100%;
