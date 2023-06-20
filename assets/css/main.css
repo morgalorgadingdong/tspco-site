@@ -35,6 +35,17 @@ li {
 	list-style: none;
 }
 
+.bold {
+	font-weight: bold;
+} 
+
+.mb-0 {
+	margin-bottom: 0 !important;
+} 
+.mb-1 {
+	margin-bottom: .25rem !important;
+} 
+
 #home > .logo-container {
 	width: 100%;
 	display: flex;
