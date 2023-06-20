@@ -45,7 +45,7 @@
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-	background: var(--color-mid-2);
+	background: var(--color-dark);
 	border-radius: 10px;
   }
   
@@ -60,7 +60,12 @@
 	display: none;
   } */
 
-  
+.container-center {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 li {
 	list-style: none;
