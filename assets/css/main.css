@@ -64,6 +64,16 @@
 	display: none;
   } */
 
+  .no-scroll {
+	overflow: hidden !important;
+  }
+
+
+  header {
+	margin-bottom: 0 !important;
+  }
+  
+
 .container-center {
 	width: 100%;
 	display: flex;
@@ -475,7 +485,7 @@ input, select, textarea {
 				display: block;
 				background-color: var(--color-mid-2);
 				height: 1px;
-				margin: 1.5rem 0 1.75rem 0;
+				margin: 1rem 0 1rem 0;
 				width: 5rem;
 			}
 
@@ -1509,7 +1519,7 @@ input, select, textarea {
 		}
 
 			.panel.special > .content > .inner > :nth-child(n+2):nth-last-child(n+2) {
-				margin: 3em 0;
+				margin: 1em 0;
 			}
 
 			.panel.special.inactive {
