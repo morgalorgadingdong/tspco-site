@@ -74,6 +74,7 @@
   }
   
 
+
 .container-center {
 	width: 100%;
 	display: flex;
@@ -269,6 +270,8 @@ input, select, textarea {
 		html, body {
 			min-width: 320px;
 		}
+
+		
 
 	}
 
@@ -1415,6 +1418,10 @@ input, select, textarea {
 
 			#wrapper {
 				padding: 2em;
+			}
+
+			#home div.content {
+				padding-top: 0;
 			}
 
 		}
